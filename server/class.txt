@@ -1,0 +1,34 @@
+class (class)
+
+1. What are classes & IDs?
+.both class and id are used to :
+.select HTML elements
+.apply  CSS style
+.target elements in Js
+2. what is a class ?
+. used for multiple elements
+. Reusable
+. Most commonly used in real projects
+
+SYNTAX :
+html 
+<div class = "box">Box 1</div>
+<div class = "box> Box 2</div>
+
+css
+.box{
+    background-color : lightblue;
+    padding : 18px;
+}
+Both boxes get the same style
+
+multiple classes in one element
+html 
+<div class = "box highlightened"></div>
+css
+.box {
+    padding : 20px;
+}
+.highlightened : {
+    border : 2px solid red;
+}

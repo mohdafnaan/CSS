@@ -1,0 +1,53 @@
+What is CSS ?
+Css = cascading style sheet.
+Css is used to style HTML elements
+
+HTML = structure
+CSS  = design/look/layout
+
+without Css, websites look plain and boring
+
+Example :
+. HTML says : 'this is a heading'
+. CSS says  : 'make it blue, center it, increase size'
+
+
+Why CSS is important?
+CSS helps you to :
+.Change colors 
+.Change fonts
+.Control layout
+.Make website responsive
+.Create animations
+
+Example : 
+selector : {
+    property :value;
+}  // this is the template
+
+h1 {
+     color : red
+     font-size : 32px;
+}
+h1--> selector
+color --> property
+red --> value
+
+2. internal Css
+<style>
+h1 {
+    color : blue;
+}
+</style>
+
+
+
+
+3.External CSS (best practice)
+ html:
+    <link rel = "stylesheet" href = "style.css">
+CSS : 
+    h1{
+        color : green;
+    }
+
